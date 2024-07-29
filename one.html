@@ -1,174 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRACTICAS </title>
-    <!-- <link rel="stylesheet" href="one.css"> --> 
-</head>
-<body>
-   <!---ETIQUETAS DE TEXTO---> 
-   <h1>BIENVENIDOS</h1>
-   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam est ab nostrum quam consequuntur. Architecto ab enim unde sapiente, error deserunt velit eos dignissimos ducimus, reprehenderit nisi cupiditate explicabo illum?
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum sequi expedita ratione dignissimos quasi, at esse eius, asperiores labore deserunt non praesentium distinctio, aperiam nulla ipsam exercitationem doloremque. Illo, cum!
-   </p><br>
-   <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sapiente. Iure aliquam hic, fugiat qui magnam autem beatae? Unde rerum dolorem excepturi vero! Praesentium distinctio, non nobis ad earum accusantium!
-    Lorem ipsum dolor sit amet consectetur,Consectetur necessitatibus, doloribus sit incidunt distinctio hic alias consequatur ut adipisci excepturi similique rem eos expedita doloremque architecto eveniet error voluptas. Inventore.
-   </pre><br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRACTICAS</title>
+    <!-- Vincular una hoja de estilos externa -->
+    <!-- <link rel="stylesheet" href="one.css"> -->
+    <style>
+      /* Estilos para el cuerpo de la página */
+      body {
+        background-color: #fcfeff; /* Cambia el color de fondo */
+        /* Puedes usar una imagen de fondo con la siguiente línea comentada */
+        /* background-image: url("https://cdn.pixabay.com/animation/2023/01/24/23/10/23-10-04-56_512.gif"); */
 
-   <b><blockquote>ffffffff ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos voluptatem, laboriosam modi fugit doloremque, tempora nihil quas, alias dolores quo. Voluptates reprehenderit ipsa dolor, ipsam ipsum est? Delectus, nulla.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos veritatis officiis. Beatae, a consequatur quaerat quos, numquam nobis, laborum eum non reprehenderit deleniti ducimus dolorem ratione fugit maiores sunt!Lorem
-   </blockquote></b>
+        /* Repetir la imagen de fondo en el eje Y */
+        /* background-repeat: repeat-y; */
 
-  
-    
-<!--listas-->
-   
-<!--DESORNEDA-->
-<ul>
+        /* No repetir la imagen de fondo */
+        /* background-repeat: no-repeat; */
+
+        /* Posicionar la imagen de fondo en la parte superior */
+        /* background-position: top; */
+
+        /* Mantener la imagen de fondo fija al hacer scroll */
+        /* background-attachment: scroll; */
+      }
+
+      /* Estilos para los títulos h1 */
+      h1 {
+        text-align: center; /* Centra el texto */
+        color: red; /* Color del texto */
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Fuente del texto */
+        font-size: 25px; /* Tamaño del texto */
+        opacity: 0.5; /* Opacidad del texto */
+      }
+
+      /* Estilos para el elemento con id PRUEBA */
+      #PRUEBA {
+        border-style: double; /* Estilo del borde (doble) */
+        border-width: 5px 20px 5px 20px; /* Ancho del borde (superior, derecha, inferior, izquierda) */
+        text-align: center; /* Centra el texto */
+      }
+
+      /* Estilos para los elementos con clase PRUEBA1 */
+      .PRUEBA1 {
+        border-style: solid; /* Estilo del borde (sólido) */
+        border-color: violet; /* Color del borde */
+        border-width: 5px 80px 5px 80px; /* Ancho del borde (superior, derecha, inferior, izquierda) */
+        text-align: center; /* Centra el texto */
+        outline-style: dashed; /* Estilo del contorno (discontinuo) */
+        outline-color: yellow; /* Color del contorno */
+        outline-width: 5px; /* Ancho del contorno */
+      }
+
+      /* Estilos para los títulos h5 y h6 */
+      h5,
+      h6 {
+        border: 10px solid red; /* Borde sólido de 10px de color rojo */
+        border-radius: 40px; /* Bordes redondeados */
+        margin: 50px 80px 100px 55px; /* Espaciado exterior (margen) */
+        text-align: center; /* Centra el texto */
+        padding: 25px 25px 25px 25px; /* Espaciado interior (relleno) */
+        box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
+        height: 100px; /* Altura del elemento */
+        width: 400px; /* Ancho del elemento */
+        max-width: 400px; /* Ancho máximo del elemento */
+        max-height: 500px; /* Altura máxima del elemento */
+        outline-style: solid; /* Estilo del contorno (sólido) */
+        outline-width: 5px; /* Ancho del contorno */
+        outline-color: green; /* Color del contorno */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Títulos de bienvenida -->
+    <h1>BIENVENIDOS</h1>
+    <h2 id="PRUEBA">PRUEBA CON EL ID -> #</h2>
+    <h3 class="PRUEBA1">PRUEBA CON EL CLASS -> .</h3>
+    <h4 style="border: 2px solid tomato">SELECTOR UNIVERSAL -> *</h4>
+    <!-- Color del borde CSS agregado directamente en el HTML -->
+    <h5 style="color: blue">AGRUPACION</h5>
+    <!-- Color del texto agregado directamente en el HTML -->
+    <h6>CON ETIQUETAS DE TEXTO</h6>
+
+    <!-- Párrafos y bloques de texto -->
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam est ab
+      nostrum quam consequuntur. Architecto ab enim unde sapiente, error
+      deserunt velit eos dignissimos ducimus, reprehenderit nisi cupiditate
+      explicabo illum? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Voluptatum sequi expedita ratione dignissimos quasi, at esse eius,
+      asperiores labore deserunt non praesentium distinctio, aperiam nulla ipsam
+      exercitationem doloremque. Illo, cum!
+    </p>
+    <br />
+    <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sapiente. Iure aliquam hic, fugiat qui magnam autem beatae? Unde rerum dolorem excepturi vero! Praesentium distinctio, non nobis ad earum accusantium!
+        Lorem ipsum dolor sit amet consectetur,Consectetur necessitatibus, doloribus sit incidunt distinctio hic alias consequatur ut adipisci excepturi similique rem eos expedita doloremque architecto eveniet error voluptas. Inventore.
+    </pre>
+    <br />
+    <b
+      ><blockquote>
+        ffffffff ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos
+        voluptatem, laboriosam modi fugit doloremque, tempora nihil quas, alias
+        dolores quo. Voluptates reprehenderit ipsa dolor, ipsam ipsum est?
+        Delectus, nulla. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Commodi dignissimos veritatis officiis. Beatae, a consequatur
+        quaerat quos, numquam nobis, laborum eum non reprehenderit deleniti
+        ducimus dolorem ratione fugit maiores sunt!Lorem
+      </blockquote></b
+    >
+
+    <!-- Listas desordenadas -->
+    <ul>
       <li>SIS_256</li>
       <li>SIS_256</li>
       <li>SIS_256</li>
       <li>SIS_256</li>
       <li>SIS_256</li>
- </ul> 
-    
-<!--ORDENDA-->
- <ol start="10">
-    <li>SIS_256</li>
-    <li>SIS_256</li>
-    <li>SIS_256</li>
-    <li>SIS_256</li>
-    <li>SIS_256</li>
- </ol>
-   </div>
+    </ul>
 
-   <ul>
-    <li>manzanas</li>
-    <li>cebollas</li>
-    <li>ajo</li>
-    <li>peras</li>
-    <li>bananas</li>
-   </ul>
+    <!-- Listas ordenadas -->
+    <ol start="10">
+      <li>SIS_256</li>
+      <li>SIS_256</li>
+      <li>SIS_256</li>
+      <li>SIS_256</li>
+      <li>SIS_256</li>
+    </ol>
 
+    <!-- Más listas desordenadas -->
+    <ul>
+      <li>manzanas</li>
+      <li>cebollas</li>
+      <li>ajo</li>
+      <li>peras</li>
+      <li>bananas</li>
+    </ul>
 
-   <ol>
-     <li>MARVEL</li>
-     <li>MARVEL</li>
-     <li>MARVEL</li>
-     <li>MARVEL</li>
-     <li>MARVEL</li>
-   </ol>
+    <!-- Más listas ordenadas -->
+    <ol>
+      <li>MARVEL</li>
+      <li>MARVEL</li>
+      <li>MARVEL</li>
+      <li>MARVEL</li>
+      <li>MARVEL</li>
+    </ol>
 
-   <ol>
-    <li>NOMBRE:JUAN</li>
-    <li>CELULAR:321456879</li>
-    <li>DIRECCION:CALLE#45</li>
-   </ol>
+    <!-- Lista con información personal -->
+    <ol>
+      <li>NOMBRE: JUAN</li>
+      <li>CELULAR: 321456879</li>
+      <li>DIRECCIÓN: CALLE #45</li>
+    </ol>
 
+    <!-- Enlaces -->
+    <a href="INDEX.HTML" target="_blank">ir a otro html en una nueva página</a>
+    <br />
 
+    <!-- Imágenes -->
+    <img src="/descarga.jpeg" alt="es una imagen" width="600" height="900" />
 
-<!--ENLACES-->
+    <!-- Tablas -->
+    <table border="1">
+      <caption>
+        TITULO
+      </caption>
+      <tr>
+        <td>titulo 1</td>
+        <td>titulo 2</td>
+      </tr>
+      <tr>
+        <td>semana 1</td>
+        <td>semana 2</td>
+        <td>semana 3</td>
+      </tr>
+      <tr>
+        <td>semana 4</td>
+        <td>semana 5</td>
+        <td>semana 6</td>
+      </tr>
+    </table>
+    <br />
 
-<a href="INDEX.HTML" target="_blank">ir a otro html en una nueva pagina </a> <br>
+    <table border="1">
+      <tr>
+        <td>semana1</td>
+        <td colspan="2">semana2y3</td>
+        <td>semana 4</td>
+        <td>semana 5</td>
+        <td>semana 6</td>
+      </tr>
+    </table>
 
+    <table border="1">
+      <tr>
+        <td>semana2</td>
+        <td rowspan="2">semana2 y 3</td>
+        <td>semana 4</td>
+        <td>semana 5</td>
+        <td>semana 6</td>
+      </tr>
+    </table>
 
-<!--IMAGENES-->
-
-<img src="/descarga.jpeg" alt="es una imagen " width="600" height="900"> 
-
-
-
-
-<!--TABLAS-->
-
-<table border="1">
-
-   <caption>TITULO</caption>
-   <tr>
-      <td>titulo 1</td>
-      <td>titulo 2</td>
-   </tr>
-<tr>
-   <td>semana 1</td>
-   <td>semana 2</td>
-   <td>semana 3</td>
-</tr>
-<tr>
-   <td>semana 4</td>
-   <td>semana 5</td>
-   <td>semana 6</td>
-</tr>
-</table><br>
-
-<table border="1">
-   <tr>
-     <td>semana1</td>
-     <td colspan="2">semana2y3 </td>
-     <td>semana 4</td>
-   <td>semana 5</td>
-   <td>semana 6</td>
-  </tr>
-</table>
-
-
-<table border="1">
-   <tr>
-     <td>semana2</td>
-     <td rowspan="2">semana2  y  3  </td>
-     <td>semana 4</td>
-   <td>semana 5</td>
-   <td>semana 6</td>
-  </tr>
-</table>
-
-<!--FORMULARIOS -->
-
-
-<form>
-
-   <input type="text"><br><br>
-   <input type="password"><br><br>
-   <input type="email"><br><br>
-   <input type="date"><br><br>
-   <input type="month"><br><br>
-   <input type="week"><br><br>
-   <input type="number"><br><br>
-   <input type="color"><br><br>
-   <input type="range"><br><br>
-   <input type="radio" name="genero" value="F"><br><br>
-   <input type="radio" name="genero" value="M" ><br><br>
-   <input type="checkbox"><br><br>
-   <input type="reset"><br><br>
-   <input type="submit"><br><br>
-   <button>Enviar </button>
-<textarea></textarea>
-
-<select >
-   <option>java</option>
-   <option>php</option>
-</select><br><br>
-
-
-<select >
-<optgroup label = "lenguajes ">
-
-   <option>C++</option>
-   <option>BD</option>
-
-</optgroup>
-</select> <br><br>
-
-
-<input list="Etiquetas">
-<datalist id="Etiquetas">
-   <option value = "texto "></option> 
-   <option value = "tablas"></option>
-</datalist><br><br>
- <input type="file"><br><br>
-<progress value="25" max="100"></progress>
-
-</form>
-
-</body>
+    <!-- Formularios -->
+    <form>
+      <input type="text" /><br /><br />
+      <input type="password" /><br /><br />
+      <input type="email" /><br /><br />
+      <input type="date" /><br /><br />
+      <input type="month" /><br /><br />
+      <input type="week" /><br /><br />
+      <input type="datetime-local" /><br /><br />
+      <input type="number" /><br /><br />
+      <input type="range" /><br /><br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
 </html>
